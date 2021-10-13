@@ -10,17 +10,20 @@ const Dashboard = (props) => {
         {
             title: `Sign on (Generic)`,
             id: 0,
-            description: 'Made with React-Hooks-Form'
+            description: 'Made with React-Hooks-Form',
+            pathway: '/generic'
         },
         {
             title: `Sign on (White)`,
             id: 1,
-            description: 'Made with React-Hooks-Form'
+            description: 'Made with React-Hooks-Form',
+            pathway: '/generic'
         },
         {
             title: `Sign on (media)`,
             id: 2,
-            description: 'Made with React-Hooks-Form'
+            description: 'Made with React-Hooks-Form',
+            pathway: '/generic'
         },
     ]
 
@@ -29,7 +32,12 @@ const Dashboard = (props) => {
             {
                 availableForms.map((form, idx) => {
                     return (
-                        <FormSelect title={form.title} id={idx} description={form.description} />
+                        <FormSelect
+                            title={form.title} 
+                            id={idx} 
+                            description={form.description} 
+                            pathway={form.pathway}
+                        />
                     )
                 })
             }

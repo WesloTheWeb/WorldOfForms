@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+a, a:visited {
+ text-decoration: none;
+}
+
 h1 {
   color: #FFF;
   font-family: 'Merriweather', serif;
