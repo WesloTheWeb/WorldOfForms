@@ -4,6 +4,13 @@
     padding: 5.5rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .previewForm {
+        margin: 1.5rem 0;
+        padding: 1rem;
+    }
+}
+  
 .previewForm:hover {
     cursor: pointer;
     background-color: #343434;

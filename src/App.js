@@ -1,13 +1,19 @@
+import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import Header from './components/Header/Header';
 import './App.css';
-import Dashboard from './containers/Dashboard/Dashboard';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Welcome to a World of Forms</h1>
-        <h2>Select a form from the dashboard below</h2>
-        <Dashboard />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Route path="/" exact component={HomePage} />
+      </div>
+      <Footer />
+    </BrowserRouter>
   );
 }
 
