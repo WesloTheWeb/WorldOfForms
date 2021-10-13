@@ -1,0 +1,14 @@
+.previewForm {
+    border: 5px solid #A56AEB;
+    border-radius: 10px;
+    padding: 5.5rem;
+}
+
+.previewForm:hover {
+    cursor: pointer;
+    background-color: #343434;
+}
+
+.previewForm p {
+    color: #44839E;
+}
