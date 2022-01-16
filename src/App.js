@@ -13,7 +13,6 @@ function App() {
         <Header />
         <Route path="/" exact component={HomePage} />
         <Route path="/generic" exact component={FormGeneric} />
-
       </div>
       <Footer />
     </BrowserRouter>

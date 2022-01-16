@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = (props) => {
     return (
         <footer class="footer">
-            Copyright &copy; {new Date().getFullYear()}
+            Copyright &copy;  2021 - {new Date().getFullYear()}
         </footer>
     );
 };
